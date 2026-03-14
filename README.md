@@ -1,169 +1,172 @@
-# 🕵️ OPTHINK Marketing Skill
+# 🕵️ OPTHINK Marketing Skills
 
-> CIA-derived Operational Thinking applied to marketing, sales, and client intelligence.
+> CIA-derived Operational Thinking applied to marketing, sales, SEO, PPC, and competitive intelligence.
 
-## What Is OPTHINK?
+## Skills in This Repo
 
-OPTHINK (Operational Thinking) is the cognitive framework used to train CIA intelligence officers to:
-- Read people instantly and accurately
-- Predict behavior before it happens
-- Stay calm and strategic under pressure
-- Control outcomes instead of reacting to them
-
-This skill brings those same frameworks into everyday marketing and sales scenarios.
-
-**Core principle:** Most people react. OPTHINK practitioners observe, predict, then act.
+| Skill | Description | Best For |
+|-------|-------------|----------|
+| [`opthink`](skills/opthink/) | Core OPTHINK framework — MICE, AIPDA, Elicitation, Churn Warning | Sales, copywriting, client intelligence |
+| [`cia-seo`](skills/cia-seo/) | Cover Story + Asset Recruitment + Terrain Mapping for SEO | Content strategy, keyword planning, SEO briefs |
+| [`cia-ppc-meta`](skills/cia-ppc-meta/) | Cover Story + Asset Recruitment + Terrain Mapping for Paid Ads | Google Ads, Meta Ads, campaign structure |
+| [`cia-terrain-dataforseo`](skills/cia-terrain-dataforseo/) | Full Terrain Mapping operationalized with DataForSEO API | Competitive SEO intelligence, keyword gap analysis |
 
 ---
 
-## Marketing Use Cases
+## The Core CIA Frameworks
 
-| Use Case | Framework | What You Get |
-|----------|-----------|-------------|
-| 🎯 Discovery calls | Elicitation | Uncover real pain points without tipping your hand |
-| 🧠 Buyer profiling | MICE | Identify what actually drives purchase decisions |
-| ✉️ Email analysis | Baseline Deviation | Read subtext, detect stalling, spot churn signals |
-| ⚔️ Objection handling | Objection Map | Predict and neutralize objections before they're raised |
-| 🕵️ Competitor intel | Intel Deconstruction | Find the gap in their positioning you can own |
-| 📣 Copywriting | AIPDA Influence | Write psychologically-optimized ads and emails |
-| ⚠️ Client retention | Churn Early Warning | Catch at-risk clients before they cancel |
+### 1. 🎭 Cover Story — Lead with Their Mission, Not Your Product
+CIA officers never open with who they are. They open with what matters to the target.
 
----
+In marketing: stop leading with your company, product, or features. Lead with the customer's problem or aspiration. Your brand is the cover story. Their outcome is the mission.
 
-## The Frameworks
-
-### MICE — Buyer Psychology
-Every buyer is motivated by one primary driver:
-- **Money** — ROI, savings, revenue impact → lead with numbers
-- **Ideology** — Values, identity, mission → lead with alignment
-- **Coercion** — Fear, FOMO, risk of inaction → lead with urgency
-- **Ego** — Status, exclusivity, recognition → lead with prestige
-
-### Elicitation — Discovery Without Revealing Your Hand
-CIA-style indirect questioning techniques:
-- **Bracketing** — State a range to get them to correct you
-- **Flattery + assumption** — Assume something to get them to confirm or correct
-- **Deliberate misstatement** — Say something slightly wrong, let them reveal the truth
-- **The trailing off** — Silence is pressure. People fill it.
-
-### Baseline Deviation — Reading Between the Lines
-Establish how someone normally communicates, then watch for changes:
-- Response time shift
-- Tone change (warmer/cooler)
-- New qualifiers ("perhaps," "maybe," "we'll see")
-- Avoiding direct answers
-- New people getting CC'd
-
-### Objection Prediction — Map Before You Enter the Room
-For every pitch or negotiation, map:
-1. Primary concern (what they care most about)
-2. Secondary concern (what they'll say)
-3. Hidden concern (what they won't say)
-4. Walkaway point
-5. Their ideal outcome
-
-### AIPDA — Influence Copy Framework
-- **Anchor** — Make the problem vivid and urgent
-- **Identify** — Mirror their identity back
-- **Prove** — Social proof matched to their MICE profile
-- **Disarm** — Address the objection before they raise it
-- **Activate** — One clear action, no ambiguity
-
-### Intel Deconstruction — Competitor Analysis
-When reading a competitor's messaging:
-1. What problem are they claiming to solve?
-2. What proof do they offer?
-3. What are they NOT saying? ← your opportunity
-4. Who are they speaking to?
-5. What fear are they selling against?
-6. Where is their messaging weakest?
-
-### Churn Early Warning — Client Retention Intelligence
-🔴 High risk signals: delayed responses, shorter replies, questions about contract terms, requests for data exports, new stakeholder suddenly involved
-
-🟡 Medium risk signals: formal tone shift, fewer questions, skipping calls, scope reduction requests
+**Application:**
+- SEO → Content speaks to the searcher's intent, not the brand
+- PPC → Ad copy mirrors the buyer's mission, not the product description
+- Sales → Discovery calls uncover real pain before presenting solutions
 
 ---
 
-## How to Use
+### 2. 🕸️ Asset Recruitment — Never Ask for the Big Commitment First
+CIA recruits assets in stages. No handler asks for full commitment on first contact.
 
-This is an OpenClaw skill. Install it by placing the `skills/opthink/` folder in your OpenClaw skills directory.
+In marketing: every audience has a stage. Cold, warm, hot. Matching your ask to their stage is the difference between a conversion and a bounce.
 
-### Example Prompts
-
-**Discovery Call Decoder:**
 ```
-Apply OPTHINK discovery analysis to this email. Identify their real pain point, 
-primary MICE driver, hidden objections, and the 3 questions I should ask next.
+COLD (Stranger)     → SPOTTING     → Low-friction ask (content, awareness)
+WARM (Engaged)      → ASSESSMENT   → Medium ask (download, demo)
+HOT (High-intent)   → DEVELOPMENT  → Full ask (buy, book, call)
+EXISTING            → HANDLING     → Retention, upsell, referral
+```
 
+**Application:**
+- SEO → Match content type to funnel stage (informational → consideration → transactional)
+- PPC → Campaign structure mirrors recruitment stages (cold/warm/hot audiences)
+- Email → Nurture sequence paces commitment asks properly
+
+---
+
+### 3. 🗺️ Terrain Mapping — Know the Battlefield Before You Spend a Dollar
+CIA maps every threat and asset before any operation.
+
+In SEO and PPC: map competitor terrain before creating a single piece of content or spending a dollar on ads.
+
+```
+Zone 1: OCCUPIED    → What competitors own (avoid or outflank)
+Zone 2: CONTESTED   → Where you both rank (quick wins: positions 4-10)
+Zone 3: UNOCCUPIED  → High volume, low competition (claim this first)
+Zone 4: FORTIFIED   → Strong backlinks / brand lock (don't attack directly)
+Zone 5: SUPPLY LINES → Their weak/thin/old content (build better, take the ranking)
+```
+
+**Application:**
+- SEO → DataForSEO keyword gap analysis, competitor content audit
+- PPC → Competitor ad deconstruction, unoccupied keyword discovery
+- Content → Zone 3 and Zone 5 are your highest-leverage starting points
+
+---
+
+## The OPTHINK Core (MICE + AIPDA)
+
+### MICE — What Drives Every Buyer Decision
+| Driver | Trigger | Marketing Lead |
+|--------|---------|----------------|
+| **Money** | ROI, savings, revenue | Lead with numbers and outcomes |
+| **Ideology** | Values, identity, mission | Lead with belief and alignment |
+| **Coercion** | Fear, FOMO, urgency | Lead with risk of inaction |
+| **Ego** | Status, recognition, prestige | Lead with social proof and exclusivity |
+
+### AIPDA — The Persuasion Structure
+```
+ANCHOR  → Make the problem or stakes visceral and immediate
+IDENTIFY → Mirror the audience's identity or situation back
+PROVE   → One specific, concrete example (real names, real results)
+DISARM  → Address the objection before they think it
+ACTIVATE → One clear action. No ambiguity.
+```
+
+---
+
+## Example Prompts by Skill
+
+### `opthink` — Core Sales & Marketing
+```
+Apply OPTHINK to this prospect email. Identify their MICE driver,
+hidden objections, and the 3 questions I should ask on the next call.
 [paste email]
 ```
 
-**Buyer Psychology Profile:**
+### `cia-seo` — Content Strategy
 ```
-Profile this buyer using MICE. They're a [role] at a [company size] [industry] company. 
-Here's what they said: [quote]. What's their primary driver and how should I message them?
-```
-
-**Email Intent Analysis:**
-```
-Apply baseline deviation analysis to this email thread. What's the subtext? 
-Are there churn warning signs? What's their real position? Recommended response?
-
-[paste thread]
+Run a CIA Asset Recruitment map for [keyword set].
+Classify each keyword by recruitment stage.
+Find the gaps in the funnel and suggest the 3 missing content pieces.
 ```
 
-**Objection Prediction:**
+### `cia-ppc-meta` — Paid Ads
 ```
-I'm pitching [offer] to [client profile]. Map their likely objections using OPTHINK —
-primary, secondary, hidden, and walkaway point. Give me a neutralizer for each.
-```
-
-**Competitor Deconstruction:**
-```
-Deconstruct this competitor's homepage using CIA intelligence analysis. 
-Find their positioning gaps and where I can own the space they're ignoring.
-
-[paste copy]
+Write a Google Search ad using CIA Cover Story framework for:
+Product: [X]
+Searcher mission: [what they're trying to accomplish]
+Top objection to disarm: [Y]
+CTA: [single action]
 ```
 
-**Influence Copy:**
 ```
-Write a cold email using the AIPDA influence framework for a [MICE profile] buyer.
-Product: [X]. Goal: book a 30-min call.
+Audit this Meta campaign structure against CIA Asset Recruitment.
+Are cold/warm/hot audiences getting the right creative and ask?
+[paste campaign structure]
 ```
 
-**Churn Early Warning:**
+### `cia-terrain-dataforseo` — Competitive Intelligence
 ```
-Analyze these client communications for churn signals. Score the risk (low/medium/high) 
-and tell me exactly what to do in the next 48 hours.
+Run a CIA Terrain Map for [my domain] vs [competitors].
+Find Zone 3 (unoccupied keywords) and Zone 5 (their weak content).
+Seed keywords: [list]
+Use DataForSEO workflows. Output a prioritized action plan.
+```
 
-[paste messages]
+---
+
+## Installation (OpenClaw)
+
+Clone or download this repo and place the `skills/` folder contents into your OpenClaw skills directory:
+
+```bash
+git clone https://github.com/YellowJackMedia/opthink-marketing-skill
+cp -r opthink-marketing-skill/skills/* ~/.openclaw/skills/
 ```
+
+Each skill activates automatically when a matching task is detected.
 
 ---
 
 ## Source Frameworks
 
-The principles in this skill are drawn from publicly available intelligence and persuasion research:
-
 - CIA Operational Psychology (declassified training concepts)
 - *Never Split the Difference* — Chris Voss (FBI negotiation)
-- *Spy the Lie* — Houston, Floyd, Carnicero (CIA/NSA polygraph examiners)
+- *Spy the Lie* — Houston, Floyd, Carnicero (CIA/NSA)
 - *What Every Body Is Saying* — Joe Navarro (former FBI)
 - *Influence* — Robert Cialdini
 - Everyday Spy — Andrew Bustamante (former CIA officer)
+- DataForSEO API documentation
 
 ---
 
 ## File Structure
 
 ```
-opthink-skill/
+opthink-marketing-skill/
 ├── README.md
 └── skills/
-    └── opthink/
-        └── SKILL.md
+    ├── opthink/
+    │   └── SKILL.md          # Core OPTHINK — MICE, AIPDA, Elicitation, Churn
+    ├── cia-seo/
+    │   └── SKILL.md          # Cover Story + Asset Recruitment + Terrain for SEO
+    ├── cia-ppc-meta/
+    │   └── SKILL.md          # Cover Story + Asset Recruitment + Terrain for PPC/Meta
+    └── cia-terrain-dataforseo/
+        └── SKILL.md          # Terrain Mapping with DataForSEO API workflows
 ```
 
 ---
